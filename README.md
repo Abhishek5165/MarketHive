@@ -25,7 +25,7 @@
     <img src="https://img.shields.io/badge/JavaScript-323330?&logo=javascript&logoColor=F7DF1E" alt="JAVASCRIPT" />&nbsp;
 </p>
 
-Amazon Clone Project is build using HTML and CSS, highlighting that it aims to replicate the core features and user experience of the original website.
+Amazon Clone Project is build using HTML, CSS and JavaScript, highlighting that it aims to replicate the core features and user experience of the original website.
 
 This Amazon clone have a similar layout and structure to the original Amazon website. It will consist of a header, main content section, and footer, only home Page is clone.
 
