@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhishek's Amazon Website</title>
+    <link rel="icon" type="image/x-icon" href="fevi.png">
+    <link rel="stylesheet" href="SignIn.css">
+
+    <style>
+        .FormSpace {
+            height: 610px;
+        }
+        .p2 {
+            height: 65px;
+        }
+
+        .Lab {
+            padding-bottom: 4px;
+            margin-top: 20px;
+        }
+
+        ::placeholder {
+            text-align: left;
+            font-size: 13px;
+            color: #a09e9e;
+        }
+
+        .p3 {
+            font-size: 12px;
+            margin-top: 11px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .i {
+            font-size: 15px;
+            color: blue;
+            font-weight: bold;
+            font-style: italic;
+            padding-right: 5px;
+        }
+
+        .p4 {
+            font-size: 13px;
+            line-height: 18px;
+            margin-top: 15px;
+            color: rgb(78, 77, 77);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .submit::placeholder {
+            color: black;
+            font-size: 15px;
+            text-align: center;
+            font-weight: 550;
+        }
+
+        .line3 {
+            width: 90%;
+            margin: 0 auto;
+            color: rgb(187, 185, 185);
+            opacity: 0.3;
+            margin-top: 5px;
+            border-radius: 10px;
+        }
+
+        .p1 {
+            font-size: 13px;
+        }
+
+        .mob {
+            width: 100px;
+        }
+
+        .com {
+            display: flex;
+        }
+
+        .com .mob {
+
+            width: 205px;
+        }
+
+        select {
+            border-radius: 10px;
+            padding: 5px;
+            height: 30px;
+            margin-top: 2px;
+            width: 75px;
+            text-align: center;
+            background-color: white;
+            border: 0.5px solid rgb(187, 185, 185);
+            margin-right: 15px;
+            cursor: pointer;
+        }
+
+        .mob:focus {
+
+            box-shadow: 0 0 0 3px rgba(156, 233, 233, 0.87);
+            background-color: #f5faf9a9;
+        }
+
+        select:focus {
+            box-shadow: 0 0 0 3px rgba(156, 233, 233, 0.87);
+            background-color: rgba(156, 233, 233, 0.87);
+            background-color: #f5faf9a9;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="Logo">
+        <a href="../Intro/index.html">
+            <img class="LogoImg" src="logo.png" alt="">
+        </a>
+    </div>
+
+    <div class="FormSpace">
+        <h1 class="Sign">Create Account</h1>
+        <label class="Lab" for="">Your name</label>
+        <input class="in" type="text" placeholder="First and last name">
+
+        <label class="Lab" for="">Mobile number</label>
+        <div class="com">
+            <select name="" id="">
+                <option value="">IN +91</option>
+                <option value="">Afganistan +93</option>
+                <option value="">Albania +355</option>
+                <option value="">Algeria +213</option>
+                <option value="">American Samoa +1</option>
+                <option value="">Andorra +376</option>
+                <option value="">Australia +61</option>
+                <option value="">Austria +43</option>
+                <option value="">Bahamas +1</option>
+                <option value="">Bangladesh +880</option>
+                <option value="">Bahrain +973</option>
+                <option value="">Belgium +375</option>
+                <option value="">Benin +229</option>
+                <option value="">Brazil +55</option>
+                <option value="">Combodia +855</option>
+                <option value="">Canada +1</option>
+                <option value="">Cape Varde +238</option>
+                <option value="">China +86</option>
+                <option value="">Cook Islands +682</option>
+                <option value="">Cuba +53</option>
+                <option value="">Denmark +45</option>
+                <option value="">Dominica +1</option>
+                <option value="">Egypt +20</option>
+                <option value="">Eritrea +291</option>
+                <option value="">Estonia +372</option>
+                <option value="">Fiji +679</option>
+                <option value="">France +33</option>
+                <option value="">Gabon +241</option>
+                <option value="">Georgia +995</option>
+                <option value="">Greece +30</option>
+                <option value="">Guam +1</option>
+                <option value="">Hong Kong +852</option>
+                <option value="">Hungry +36</option>
+                <option value="">Iran +98</option>
+                <option value="">Ireland +353</option>
+                <option value="">Italy +39</option>
+                <option value="">Japan +81</option>
+                <option value="">Jordon +962</option>
+                <option value="">Kenya +254</option>
+                <option value="">Kuwait +965</option>
+                <option value="">Libya +218</option>
+                <option value="">South Africa +27</option>
+                <option value="">Spain +34</option>
+                <option value="">Srilanka +94</option>
+                <option value="">Sweden +46</option>
+                <option value="">Thailand +66</option>
+                <option value="">Turkey +90</option>
+                <option value="">Uzbekistan +998</option>
+                <option value="">Uganda +256</option>
+                <option value="">Vatican +379</option>
+                <option value="">Vietnam +84</option>
+                <option value="">Wallis +681</option>
+                <option value="">Western Sahara +212</option>
+                <option value="">Yemen +967</option>
+                <option value="">Zambia +260</option>
+                <option value="">Zimbabwe +263</option>
+
+
+
+            </select>
+            <input required="required" class="mob" type="text" placeholder="Mobile number">
+        </div>
+
+        <label class="Lab" for="">Email (optinal)</label>
+        <input required="required" class="in" type="email" pattern="[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*"
+        required>
+
+        <label class="Lab" for="">Password</label>
+        <input class="in" type="password" placeholder="At least 6 characters">
+
+        <p class="p3"><i class="i">i</i> Passwords must be at least 6 characters.</p>
+        <p class="p4">To verify your number, we will send you a text message with a temporary code. Message and data
+            rates may apply.</p>
+
+        <input type="submit" readonly class="submit" placeholder="Continue" type="text">
+        <div class="about">
+
+            <hr class="line3"><br>
+
+            <p class="p1">Already have an account? </p>
+            <a class="cursor pointer" href="./SignIn.html">Sign in</a>&nbsp;
+            <br>
+            <p class="p1">Buying for work? </p>
+            <a class="cursor pointer" href="#"> Create a free business account</a>&nbsp;
+            <br><br>
+
+
+            <p class="p1">By creating an account or logging in, you agree to Amazon’s </p>
+            <a class="cursor pointer" href="#">Conditions of Use</a>&nbsp;<p class="p1">and</p>
+            <a class="cursor pointer" href="#"> Privacy Notice.</a><br><br>
+
+            <div class="gone">
+                <a class="a b cursor pointer" href="#">Forgot Password</a><br>
+                <a class="a b cursor pointer" href="#">Other issues with Sign-In</a>
+            </div>
+        </div>
+    </div>
+
+    <hr class="line">
+
+    <div class="terms">
+        <a class="cursor pointer" href="">Conditions of Use </a>
+        <a class="cursor pointer" href="">Privacy Notice </a>
+        <a class="cursor pointer" href="">Help </a><br>
+    </div>
+    <p class="p2">© 2002-2024, Amazon.com, Inc. or its affiliates</p>
+
+    </head>
+</body>

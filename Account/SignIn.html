@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhishek's Amazon Website</title>
+    <link rel="icon" type="image/x-icon" href="fevi.png">
+    <link rel="stylesheet" href="SignIn.css">
+
+</head>
+
+<body>
+    <div class="Logo">
+        <a href="../Intro/index.html">
+            <img class="LogoImg" src="logo.png" alt="">
+        </a>
+    </div>
+
+    <div class="FormSpace">
+        <h1 class="Sign">Sign in</h1>
+        <label class="Lab" for="">Email or phone number</label>
+        <input class="in" type="text">
+        <input readonly class="submit" placeholder="Continue" type="text">
+        <div class="about">
+            <p class="p1">By continuing, you agree to Amazon's</p>
+            <a class="cursor pointer" href="#">Conditions of Use</a>&nbsp;<p class="p1">and</p>
+            <a class="cursor pointer" href="#"> Privacy Notice.</a><br><br>
+            <img class="arrow1" src="arrow (1).png" alt="">
+            <a class="a c cursor pointer" href="#">Need help?</a><br>
+
+            <hr class="hr">
+
+            <h4 class="h4">Buying for work? </h4>
+            <a class="cursor pointer" id="sub_heading" href="#">Shop on Amazon Business </a><br><br>
+
+            <div class="gone">
+                <a class="a b cursor pointer" href="#">Forgot Password</a><br>
+                <a class="a b cursor pointer" href="#">Other issues with Sign-In</a>
+            </div>
+        </div>
+    </div>
+    <div class="divider-break">
+
+       <form action="">
+        <fieldset>
+        <legend>New to Amazon?</legend>
+       </fieldset>
+       </form>
+    </div>
+
+    <input readonly id="Create" class="submit1" placeholder="Create your Amazon account" type="text">
+
+    <hr class="line">
+
+    <div class="terms">
+        <a class="cursor pointer" href="">Conditions of Use </a>
+        <a class="cursor pointer" href="">Privacy Notice </a>
+        <a class="cursor pointer" href="">Help </a><br>
+    </div>
+    <p class="p2">© 1996-2023, Amazon.com, Inc. or its affiliates</p>
+
+    <script>
+        const Create = document.querySelector("#Create");
+        Create.addEventListener("click", CreateAccount);
+        function CreateAccount() {
+            window.open("./Create.html");
+        }
+    </script>
+
+</head>
+</body>

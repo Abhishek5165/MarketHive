@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: border-box;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+.Logo {
+    display: flex;
+    height: 60px;
+    justify-content: center;
+}
+
+.LogoImg {
+    height: 35px;
+    width: 130px;
+    position: relative;
+    top: 10px;
+    cursor: pointer;
+}
+
+.FormSpace {
+    border: 0.5px solid rgba(189, 185, 185, 0.6);
+    height: 330px;
+    width: 310px;
+    border-radius: 8px;
+    margin: 0 auto;
+    padding: 20px 26px !important;
+}
+
+.Sign {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 1.2;
+    font-family: Arial, sans-serif;
+    margin-bottom: 10px !important;
+}
+
+.line {
+    width: 95%;
+    margin: 0 auto;
+    color: rgb(187, 185, 185);
+    opacity: 0.3;
+    margin-top: 25px;
+    border-radius: 10px;
+}
+
+.Lab {
+    display: block;
+    padding-left: 2px;
+    padding-bottom: 2px;
+    font-weight: 700;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+}
+
+.FormSpace input,
+.submit1 {
+    width: 95%;
+    background-color: #fff;
+    margin-top: 2px;
+    height: 22px;
+    padding: 3px 7px;
+    line-height: normal;
+    border: 1px solid #a6a6a6;
+    border-top-color: #949494;
+    border-radius: 3px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, .5), 0 1px 0 rgba(0, 0, 0, .07) inset;
+    outline: 0;
+}
+
+.in:focus {
+
+    box-shadow: 0 0 0 3px rgba(156, 233, 233, 0.87);
+    background-color: #f5faf9a9;
+}
+
+.FormSpace .submit {
+    width: 96%;
+    margin-top: 20px;
+    border: 0;
+    cursor: pointer;
+    height: 32px;
+    border-radius: 8px;
+    background-color: rgb(255, 213, 27);
+    outline: 0;
+    font-weight: 550;
+    padding: 1px 6px;
+}
+
+.FormSpace .submit:hover {
+    background-color: rgb(255, 224, 48);
+}
+
+::placeholder {
+    color: #000000;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.p1 {
+    font-size: 12px;
+    position: relative;
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.FormSpace a {
+    font-size: 12px;
+    color: #0066c0;
+    text-decoration: none;
+    display: inline;
+    letter-spacing: 0.5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.about {
+    display: inline;
+    position: relative;
+    top: 15px;
+}
+
+.arrow1 {
+
+    transform: rotate(270deg);
+    width: 10px;
+    height: 15px;
+    position: relative;
+    top: 3px;
+}
+
+.b {
+    padding-left: 13px;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.c {
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.Pointer:hover {
+    cursor: pointer;
+}
+
+.cursor:hover {
+    color: rgb(184, 10, 10);
+    text-decoration: underline;
+}
+
+.gone {
+    display: none;
+}
+
+.divider-break {
+    height: 30px;
+    margin-top: 25px;
+}
+
+.divider-break legend {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #767676;
+}
+
+.divider-break form fieldset {
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    border-top-color: rgba(240, 237, 237, 0.2);
+}
+
+.divider-break form {
+    width: 360px;
+    margin: 0 auto;
+}
+
+.submit1 {
+    width: 25%;
+    text-align: center;
+    margin: 0 0 0 36.78%;
+    border-radius: 8.6px;
+    border: 1px solid rgba(212, 209, 209, 0.795);
+}
+
+.submit1:hover {
+
+    background-color: #f5faf9a9;
+    cursor: pointer;
+}
+
+.hr{
+    opacity: 0.2;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    top: 15px;
+}
+.h4{
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+}
+#sub_heading{
+    position: relative;
+    top: 10px;
+}
+.terms {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.terms a {
+    font-size: 11px;
+    color: #0066c0;
+    text-decoration: none;
+    display: inline;
+    letter-spacing: 0.5px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 25px;
+    margin-left: 15px;
+}
+
+.p2 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #767676;
+    margin-top: 40px;
+}
+.p2 {
+    height: 50px;
+}
+@media (max-width:950px) and (min-width:300px) {
+    .submit1 {
+        width: 63%;
+        text-align: center;
+        margin: 0 0 0 15.78%;
+        border-radius: 8.6px;
+    }
+
+    .p2 {
+        height: 35px;
+    }
+}
