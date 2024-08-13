@@ -45,11 +45,15 @@ Provided all images required for this project. Create a folder and add html, css
 
 ## 🅱️ Electronics Section  -
 
-![home](https://github.com/Abhishek5165/MarketHive/blob/main/photos/B.png)
+![Electonics](https://github.com/Abhishek5165/MarketHive/blob/main/photos/B.png)
 
 ## 🅰️ Accounts -
 
-![home](https://github.com/Abhishek5165/MarketHive/blob/main/photos/C.png)
+![Account](https://github.com/Abhishek5165/MarketHive/blob/main/photos/C.png)
+
+## 🅱️ Footer Section -
+
+![Footer](https://github.com/Abhishek5165/MarketHive/blob/main/photos/D.png)
 
 # Technologies ✏️
 - [HTML](https://www.w3schools.com/html/default.asp)
